@@ -25,31 +25,32 @@ You are required to model the demand for shared bikes with the available indepen
   - Univariate Analysis
   - Bivariate Analysis
   - Multivariate and segmented Analysis
+- Model Building
+- Model Evaluation
 - Conclusion
   - Drawing observations and recommendations based on the data  
 
 
 ##  Recommendation and Conclusions
-- The following segments seem to have strong influence on defaults :
-  - purpose (small business is more likely to default)
-  - grade (lower grades are more likely to default)
-  - addr_state (some states are more likely to have high defaults)
-  - delinq_2yrs (higher values seem to have more)
-  - inq_last_6_months (probability of default increases with number of inq)
-  - term (36 month loan has high probability of full payment)
-  - pub_rec_bankrupcies/pub_rec (individuals reporting higher values can lead to defaulting)
-  - loan_amnt (Higher rates can increases the probability of person defaulting)
-  - int_rates(majority of the interest rate is in the range of 5% to 15%  and the Very High interest rates are in more likely to default which is greater than 15%)
-- The following segments seem to have Low/No influence on loan defaults :
-  - verfication_status
-  - emp_length
-  - home_ownership
-  - installments
-  - issue_d
-  - total_acc
-  - total_rec
-  - dti
-  - home_ownership
+Observations & Recommendations
+Demand of bikes depend on yr , workingday , temp , windspeed , season_summer , season_winter , month_sep , weekday_sat , weathersit_Light_snow_rain , weathersit_Mist
+
+    Leverage High-Impact Features: Focus on temp, yr, and Winter as they exhibit the highest coefficient values, indicating significant impact on bike demand.
+
+    Seasonal Strategies: Develop targeted marketing and pricing strategies for different seasons during Summer and Winter
+
+    Optimize Operational Planning: Adjust bike availability and distribution based on the significant features identified, optimizing resources for peak demand periods.
+
+Observations:
+
+    Season: Fall has highest demand for rental bikes
+    On holiday, demand has decreased.
+    Demand for next year is increasing.
+    Every month the demand for rental bike is increasing till June.
+    September has the highest number of demand then it's decreasing.
+    During weekdays and workingdays demands don't have that much of variation.
+    Clear weathersit has highest demand
+
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
