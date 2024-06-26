@@ -63,7 +63,7 @@ Observations:
 - [matplotlib - Version 3.9.0](https://github.com/matplotlib)
 - [seaborn](https://github.com/seaborn)
 - [Jupyter Notebook - Version 7.2.0]()
-- 
+- python-scikit-learn - Version 1.5.0-2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
